@@ -71,13 +71,6 @@ BLOG-SINGLE
 
 
 
-------------------------------------------*/
-
-
-
-
-
-
 
 
 
@@ -123,7 +116,7 @@ COMMON
 }
 body{
     user-select: none;
-    background: #060606;
+    /* background: #060606; */
 }
 
 ::-webkit-scrollbar{
@@ -158,10 +151,16 @@ body{
     font-weight: 200;
     font-family: Josefin sans;
     font-weight: bolder;
-    background: url(../images/bg-image-three.jpg); /*HEADER BACKGROUND IMAGE*/
-    background-position: center;
+    background: url(../images/xolid-music-bg.jpg); /*HEADER BACKGROUND IMAGE*/
     background-size: cover;
+    background-position: 10px -355px;
 }
+
+.nav-logo{
+    width: 20%;
+    border-radius: 40px;
+}
+
 .navigation{
     width: 100%;
     position: fixed;
@@ -196,7 +195,7 @@ body{
     width: 30px;
     height: 3px;
     opacity: 0;
-    background: rgb(240,240,240) !important;
+    background: rgb(240,240,240);
     position: relative;
     margin: 3px;
 }
@@ -222,19 +221,19 @@ a{
     opacity: .7;
 }
 .text , .text-scroll {
-    /* color: transparent; */
     color: #fff;
+    /* color: #000; */
     display: inline-block;
     position: relative;
     overflow: hidden;
     transition: 0.8s;
 }
 .text.reveal , .text-scroll.reveal{
-    color: rgb(240,240,240) !important;
+    color: rgb(240,240,240);
     animation: revealTextAnimation 0.80s ease forwards;
 }
 .text:before ,.text-scroll:before {
-    /* content: ""; */
+    content: "";
     position: absolute;
     top: 0;
     width: 100%;
@@ -259,11 +258,11 @@ a{
 
 .img img , .img-scroll img{
     width: auto;
-    opacity: 0;
+    opacity: 1;
 }
 
 .img:before ,.img-scroll:before{
-    /* content: ""; */
+    content: "";
     position: absolute;
     top: 0;
     left: 0;
@@ -345,7 +344,7 @@ a{
 }
 .social-media-links-navigation{
     position: absolute;
-    right: 0;
+    right: 5em;
     bottom: 0%;
     height: 12vh;
     width: 20%;
@@ -367,19 +366,20 @@ a{
     flex-direction: row;
 }
 .social-media-links ul li , .social-media-links-navigation ul li{
-    padding: 15px;
+    padding: 10px;
     list-style: none;
     font-size: 20px;
 }
 .navigation-content{
     position: fixed;
     background: #050505;
-    height: 100vh;
+    height: 100%;
     width: 100%;
     left: 0;
     z-index: 10;
     top: 0;
-    transform: translateY(100%);
+    transform: translateY(0%);
+    /* transform: translateY(100%); */
 }
 .navigation-content .navigation-ul{
     display: flex;
@@ -402,6 +402,7 @@ a{
     z-index: 3;
     position: relative;
     overflow: hidden;
+    text-decoration: none;
 }
 .navigation-content .navigation-ul li a::after{
     content:attr(data-text);
@@ -414,7 +415,8 @@ a{
     overflow: hidden;
     left:0;
     color: rgb(240,240,240);
-    top:0%;
+    /* top:0%; */
+    top: -22%;
     transition: all 1s cubic-bezier(0.84, 0, 0.08, 0.99);
 }
 .navigation-content .navigation-ul li a:hover::after{
@@ -474,7 +476,7 @@ a{
 }
 .gg-arrow-right::after,
 .gg-arrow-right::before {
-    /* content: ""; */
+    content: "";
     display: block;
     box-sizing: border-box;
     position: absolute;
@@ -900,22 +902,31 @@ INDEX ONE
 INDEX TWO
 ====================================*/
 
+.play-btn{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 7px;
+    left: 10px;
+
+}
+
 
 #index-two .new-release{
     position: fixed;
     border-radius: 8px;
     background: rgb(240,240,240,0.08);
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(0px);
     -webkit-backdrop-filter: blur(20px);
-    left:50%;
-    font-family:poppins;
+    left: 4%;
+    font-family: poppins;
     font-weight: lighter;
     font-size: 16px;
     display: flex;
     align-items: center;
     justify-content: center;
     bottom: 3%;
-    transform: translate(-50%,0%);
+    /* transform: translate(-50%,0%); */
     opacity: 1;
     
 }
@@ -923,8 +934,10 @@ INDEX TWO
     height: 100px;
     position: relative;
     min-width: 100px;
-    border-radius: 8px;
-    pointer-events: none;
+    border-radius: 50px;
+    pointer-events: cusor;
+    left: 10px;
+    top: 2px;
 }
 #index-two .new-release-info{
     display: flex;
@@ -961,7 +974,7 @@ INDEX TWO
     align-items: center;
     justify-content: center;
     padding: 10px;
-    padding-left: 20px;
+    /* padding-left: 20px; */
 }
 
 
@@ -1697,7 +1710,7 @@ BLOG ONE
     overflow: hidden;
 }
 #blog-one::after{
-    /* content: ""; */
+    content: "";
     position: absolute;
     top: 0;
     left: 0;
@@ -1848,7 +1861,7 @@ BLOG TWO
     overflow: hidden;
 }
 #blog-two::after{
-    /* content: ""; */
+    content: "";
     position: absolute;
     top: 0;
     left: 0;
@@ -2067,7 +2080,7 @@ CONTACT ONE
     z-index: 2;
 }
 #contact-one #form button::after{
-    /* content: ""; */
+    content: "";
     background: rgb(240,240,240,.8);
     left: 0;
     top: 100%;
@@ -2228,7 +2241,7 @@ CONTACT TWO
     z-index: 2;
 }
 #contact-two #form button::after{
-    /* content: ""; */
+    content: "";
     background: rgb(240,240,240,.8);
     left: 0;
     top: 100%;
@@ -2482,6 +2495,14 @@ BLOG-SINGLE-ONE
 
 
 
+/*====================================
+SCREEN MINIMIZES
+====================================*/
+.sm-screen{
+    opacity: 0 !important;
+    display: none;
+}
+
 
 
 
@@ -2503,9 +2524,8 @@ COMMON
 }
 
 .menu-bar{
-    position: absolute;
-    right: 5%;
-    top: 80%;
+    /* position: absolute; */
+    /* padding-right: 5%; */
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -2554,7 +2574,7 @@ COMMON
     display: none;
 }
 .social-media-links-navigation{
-    width: 40%;
+    width: 50%;
     font-size: 16px;
 }
 
@@ -2575,6 +2595,7 @@ COMMON
 .social-media-links{
     width: 15%;
     font-size: 18px;
+    top: -150px;
 }
 
 
@@ -2726,7 +2747,7 @@ ABOUT-TWO
         background-position: center;
     }
     #about-two::after{
-        /* content: ""; */
+        content: "";
         position: absolute;
         left: 0;
         top: 0;
@@ -3239,7 +3260,7 @@ BLOG-SINGLE-ONE
 
 
 /*====================================
-COMMON
+CUSTOM
 ====================================*/
 .cursor,.cursor-two{
     display: none;
@@ -3247,7 +3268,7 @@ COMMON
 .all-songs-link{
     position: fixed;
     right: 0%;
-    bottom:10%;
+    bottom:13%;
     height: auto;
     transform: rotate(-90deg);
     font-weight: 200;
@@ -3255,6 +3276,12 @@ COMMON
     font-size: 12px;
     transition: all .4s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
+
+/* .nav-logo{
+    width: 15%;
+    border-radius: 40px;
+} */
+
 /*====================================
 COMMON
 ====================================*/
@@ -3277,7 +3304,7 @@ ABOUT TWO
         background-position: center;
     }
     #about-two::after{
-        /* content: ""; */
+        content: "";
         position: absolute;
         left: 0;
         top: 0;

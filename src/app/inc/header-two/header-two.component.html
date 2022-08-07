@@ -1,0 +1,65 @@
+
+
+   <!-- NAVIGATION CONTENT -->
+ 
+<nav class="navbar navbar-expand-lg d-flex navbar-light bg-cus">
+    <a class="navbar-brand" href="#">
+        <div class=" hover cus-nav " [ngClass]="{'navigation-logo': toggle, 'opacity': !toggle}">
+            <img src="../../../assets/images/xolid-music-white-bg.jpg" class="header-logo" alt="" srcset="">
+         </div>
+    </a>
+    <div class="menu-bar hover" (click)="openMenu()">
+        <div class="menu-bar-lines text menu-2">
+            <i class='bx bx-menu bx-md' ></i>
+        </div>
+    </div>
+  </nav>
+
+  <!-- NAVIGATION CONTENT -->
+  
+  <div class="hero-img">
+    <p class="text-light hero-text text-uppercase">About</p>
+</div>
+   
+ 
+
+
+  <div class="" [ngClass]="{'navigation-content': toggle, '': !toggle}">
+    <div class=" hover " [ngClass]="{'navigation-logo': toggle, 'opacity sm-screen': !toggle}">
+        <img src="../../../../assets/images/logo.png" class="nav-logo" alt="" srcset="">
+     </div>
+    <ul class="navigation-ul" [ngClass]="{'': toggle, 'nav-menu-list': !toggle}">
+        <li [ngClass]="{'cus-opacity': toggle, '': !toggle}"><a routerLink="/" data-text="Home" data-img="images/bg-image-three.jpg">Home</a></li>
+        <li [ngClass]="{'cus-opacity': toggle, '': !toggle}"><a href="/about"  data-text="About"  data-img="images/about-img.jpg">About</a></li>
+        <li [ngClass]="{'cus-opacity': toggle, '': !toggle}"><a routerLink="/artists" data-text="Artists"  data-img="images/album-thumbnail-nine.jpg">Artists</a></li>
+        <li [ngClass]="{'cus-opacity': toggle, '': !toggle}"><a routerLink="/career"  data-text="Career" data-img="images/main-bg-three.jpg">Career</a></li>
+        <li [ngClass]="{'cus-opacity': toggle, '': !toggle}"><a routerLink="/contact"  data-text="Contact" data-img="images/album-thumbnail-four.jpg">Contact</a></li>
+    </ul>
+    <div class="hover about-close " (click)="closeMenu()" [ngClass]="{'navigation-close': toggle, 'opacity sm-screen': !toggle}">
+        <div class="navigation-close-line"></div>
+        <div class="navigation-close-line"></div>
+      </div>
+
+        <div class="project-preview"></div>
+
+
+
+    <!-- SOCIAL MEDIA LINKS -->
+    <div class="" [ngClass]="{'social-media-links-navigation': toggle, 'sm-screen': !toggle}">
+        <ul>
+            <li ><a href="#"  class="hover " [ngClass]="{'text reveal': toggle, 'opacity': !toggle}">
+               <i class='bx bxl-youtube bx-md yt'></i>
+            </a></li>
+            <li ><a href="#"  class="hover " [ngClass]="{'text reveal': toggle, 'opacity': !toggle}">
+               <i class='bx bxl-facebook-circle bx-md fb'></i>
+            </a></li>
+            <li ><a href="#"  class="hover " [ngClass]="{'text reveal': toggle, 'opacity': !toggle}">
+               <i class='bx bxl-instagram bx-md ig'></i>
+            </a></li>
+        </ul>
+    </div>
+      <!-- SOCIAL MEDIA LINKS -->
+
+</div>
+
+    

@@ -11,6 +11,8 @@ import { ContactComponent } from './pages/user/contact/contact.component';
 import { ArtistsComponent } from './pages/user/artists/artists.component';
 import { ArtistDetailComponent } from './pages/user/artist-detail/artist-detail.component';
 import { CareerComponent } from './pages/user/career/career.component';
+import { HeaderTwoComponent } from './inc/header-two/header-two.component';
+import { HeaderOneComponent } from './inc/header-one/header-one.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { CareerComponent } from './pages/user/career/career.component';
     ContactComponent,
     ArtistsComponent,
     ArtistDetailComponent,
-    CareerComponent
+    CareerComponent,
+    HeaderTwoComponent,
+    HeaderOneComponent
   ],
   imports: [
     BrowserModule,

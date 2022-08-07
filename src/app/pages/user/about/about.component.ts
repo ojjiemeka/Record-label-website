@@ -7,9 +7,22 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AboutComponent implements OnInit {
 
+  toggle:boolean = false;
+
   constructor() { }
 
   ngOnInit(): void {
   }
+
+  openMenu(){
+    this.toggle = !this.toggle;
+    console.log(this.toggle);
+  }
+
+  closeMenu(){
+    this.toggle = false;
+    console.log(this.toggle);
+  }
+
 
 }

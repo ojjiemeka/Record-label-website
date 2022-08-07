@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-index',
-  templateUrl: './index.component.html',
-  styleUrls: ['./index.component.css']
+  selector: 'app-header-two',
+  templateUrl: './header-two.component.html',
+  styleUrls: ['./header-two.component.css']
 })
-export class IndexComponent implements OnInit {
+export class HeaderTwoComponent implements OnInit {
 
   toggle:boolean = false;
 
@@ -24,12 +24,5 @@ export class IndexComponent implements OnInit {
     console.log(this.toggle);
   }
 
-  calculateClasses() {
-    console.log(this.toggle);
-
-    // return {
-    //     'cus-icon': this.toggle
-    // };
-}
 
 }

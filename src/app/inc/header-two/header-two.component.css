@@ -1,0 +1,241 @@
+.cus-icon{
+    color: rgb(240,240,240);
+}
+
+.cus-opacity{
+    opacity: 1 !important;
+}
+
+.nav-content-vanish{
+    position: fixed;
+}
+
+.music-image{
+    width: 15%;
+    border-radius: 40px;
+}
+
+.new-release-img{
+    position: fixed;
+    bottom: 5%;
+    left: 5%;
+}
+
+
+.menu-2{
+    /* color: #000 */
+    top: 0.5em;
+}
+
+.nav-menu-list{
+    visibility: hidden;
+    display: flex;
+}
+
+
+.sm-screen{
+    opacity: 0 !important;
+    display: none;
+}
+
+.bg-cus{
+    /* background-color: #d5a2a2; */
+    background-color: #113b49;
+    padding-top: 1em;
+}
+
+.hero-img{
+    /* background-color: #f6f6f6; */
+    background: url(../../../assets/images/xolid-music-bg.jpg);
+    background-size: cover;
+    background-position: 15px 48em;
+    display: flex;
+    justify-content: center;
+    /* padding: 5em; */
+}
+
+.hero-text{
+    font-size: 30px;
+    font-weight: 500;
+    position: relative;
+    /* top: 1.5em;
+    left: 10px; */
+    top: -0.1em;
+    left: 0%;
+}
+
+.header-logo{
+    position: absolute;
+    border-radius: 90px;
+}
+
+.cus-nav{
+    width: 100%;
+    height: 20px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+
+
+@media (min-width: 320px) {
+    .social-media-links ul li, .social-media-links-navigation ul li {
+        padding: 5px;
+        list-style: none;
+        /* transform: scale(1.5); */
+    }
+    .play-btn{
+        top: 0px;
+        left: 2px;
+    }
+    #header{
+        background-size: cover;
+        background-position: -115px 0px;
+    }
+    .menu-bar {
+        /* position: absolute; */
+        /* right: 5%; */
+        top: 10%;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+    }
+    .header-logo{
+        width: 27%;
+        top: 8px;
+        /* position: absolute; */
+        /* border-radius: 70px; */
+    }
+    .hero-img{
+        background-position: 3px 18em;
+        padding: 1.5em;
+    }
+    .hero-text{
+        
+    }
+    .bg-cus{
+        padding-top: 1em;
+    }
+}
+
+@media (min-width: 375px) {
+    .social-media-links ul li, .social-media-links-navigation ul li {
+        transform: scale(1.2);
+    }
+    .play-btn{
+        top: 2px;
+        left: 5px;
+    }
+    #header{
+        background-size: cover;
+        background-position: -88px 0px;
+    }
+    .header-logo{
+        width: 26%;
+        top: 9px;
+        /* position: absolute; */
+        /* border-radius: 70px; */
+    }
+    .bg-cus{
+        padding: 1em;
+    }
+    .hero-text {
+        
+    }
+    .hero-img{
+        background-position: 3px 20.5em;
+        padding: 1.5em;
+    }
+}
+
+@media (min-width: 425px) {
+    .social-media-links ul li, .social-media-links-navigation ul li {
+        transform: scale(1.3);
+    }
+    .play-btn{
+        top: 5px;
+        left: 8px;
+    }
+    #header{
+        background-size: cover;
+        background-position: -65px 0px;
+    }
+    .header-logo{
+        width: 22%;
+        top: 11px;
+        /* position: absolute; */
+        /* border-radius: 90px; */
+    }
+    .hero-img{
+        background-position: 4px 49em;
+        padding: 1.5em;
+    }
+}
+
+@media (min-width: 728px) {
+    .social-media-links ul li, .social-media-links-navigation ul li {
+        transform: scale(1.3);
+    }
+    .play-btn{
+        top: 5px;
+        left: 8px;
+    }
+    #header{
+        background-size: cover;
+        background-position: 18px -80px;
+    }
+    .header-logo{
+        width: 15%;
+        top: 0px;    
+        /* position: absolute; */
+        /* border-radius: 70px; */
+    }
+    .hero-text {
+        
+    }
+    .hero-img{
+        background-position: 6px 36em;
+        padding: 1.5em;
+    }
+}
+
+@media (min-width: 1024px) {
+    #header{
+        background-size: cover;
+        background-position: 10px -200px;
+    }
+    .header-logo{
+        width: 10%;
+        top: 7px;
+        /* position: absolute; */
+        /* border-radius: 70px; */
+    }
+    .hero-text{
+        
+    }
+    .hero-img{
+        background-position: 15px 47em;
+        padding: 1.5em;
+    }
+}
+
+@media (min-width: 1200px) {
+    #header{
+        background-size: cover;
+        background-position: 10px -355px;
+    }
+    .header-logo{
+        width: 11%;
+        top: -19px;
+        /* position: absolute; */
+        /* border-radius: 90px; */
+    }
+    .hero-img{
+        background-position: 25px 64em;
+        padding: 1.5em;
+    }
+}
+
