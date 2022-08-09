@@ -14,18 +14,44 @@
 }
 
 .cus-menu-btn:hover{
-  color: #F1474E
+  color: #F1474E;
+  }
+
+  .cus-nav-link{
+    display: flex;
+  visibility: hidden;
+
   }
 
   .cus-nav-link > a{
-    text-decoration: none !important;
+    text-decoration: none;
     transition: 0.5s;
-    font-weight: 500;
+    font-weight: 600;
   }
 
   .cus-nav-link > a:hover{
       color: #F1474E;
+      text-decoration: underline 4px;
+  transition: all 0.5s;
   }
+
+  .fw-bold{
+    font-weight: 600;
+  }
+
+  .footer{
+    background-color: #fff;
+    width: 100%;
+    height: 3em;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 23px;
+  }
+
+
 
   .artist-cover{
     /* background-color: #d7d5d5; */
@@ -48,28 +74,174 @@
 
   .artist-music{
     background-color: #f6f6f6;
-    height: 35em;
+    margin-top: 0em;
+    height: auto;
     position: relative;
-    display: inline-block;
+    top: 0em;
     width: 100%;
     vertical-align: top;
     padding: 30px 0;
     margin-bottom: 49px;
     /* background-color: rgba(255,255,255,.55); */
-    border-radius: 5px;
+    border-radius: 15px;
     -webkit-box-shadow: 2px 7px 17.82px 0.18px rgb(228 155 148 / 20%);
     box-shadow: 2px 7px 17.82px .18px rgba(228,155,148,.2);
   }
 
+  .artist-music-list{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #000;
+    /* margin-top: 2em; */
+    font-weight: 500;
+  }
+
+  .artist-music-links{
+
+  }
+
+  .p-cus-margin{
+    margin-bottom: 10px;
+  }
+
+  .contact-form{
+    border: #2C2C2C 3px dotted;
+  }
+
+  
+
   @media (min-width: 320px) {
-    /* .artist-cover {
-      background-position: 32em 13.5em;
-      width: 61%;
-      background-size: 16em 26em;
+    .about-img {
+      display: flex;
+    justify-content: center;
+    left: 0;
+    width: 100%;
+    height: 16em;
+    background-position: 110em -49.5em;
   }
-  .disk-img {
-    width: 90%;
-    left: 19%;
-    top: 0em;
-} */
+    .artist-music{
+      width: 100%;
+      position: relative;
+    /* top: 1em; */
+      padding: 1em;
+    }
+    .cus-nav-link{
+      /* display: none; */
+      visibility: hidden;
+    }
+    .artist-music-links {
+      font-size: 20px;
   }
+    .artist-cover{
+      /* background-color: #d7d5d5; */
+      width: 100%;
+      height: 20em;
+  }
+  .contact-body{
+    padding: 2em;
+  }
+}
+
+@media (min-width: 320px) {
+  .about-img {
+    display: flex;
+  justify-content: center;
+  left: 0;
+  width: 100%;
+  height: 16em;
+  background-position: 110em -49.5em;
+}
+  .artist-music{
+    width: 100%;
+    position: relative;
+  /* top: 1em; */
+    padding: 1em;
+  }
+  .cus-nav-link{
+    /* display: none; */
+    visibility: hidden;
+  }
+  .artist-music-links {
+    font-size: 20px;
+}
+  .artist-cover{
+    /* background-color: #d7d5d5; */
+    width: 100%;
+    height: 20em;
+}
+}
+
+@media (min-width: 375px) {
+  .about-img {
+    display: flex;
+  justify-content: center;
+  left: 0;
+  width: 80%;
+  height: 16em;
+  background-position: 110em -49.5em;
+}
+  .artist-music{
+    width: 100%;
+    position: relative;
+    padding: 1em;
+  }
+  .cus-nav-link{
+    visibility: hidden;
+  }
+  .artist-music-links {
+    font-size: 20px;
+}
+  .artist-cover{
+    width: 100%;
+    height: 20em;
+}
+}
+
+@media (min-width: 425px) {
+  .about-img {
+    display: flex;
+  justify-content: center;
+  left: 0;
+  width: 70%;
+  height: 16em;
+  background-position: 110em -49.5em;
+}
+}
+
+@media (min-width: 728px) {
+  .about-img {
+    width: 49%;
+    height: 21em;
+    background-position: 113em -46.5em;
+}
+}
+
+  @media (min-width: 1024px) {
+    .artist-cover{
+      width: 100%;
+      height: 30em;
+      background: url('../images/photo_2022-08-08_00-48-29.jpg');
+      background-position: 43em 31.5em;
+      border-radius: 5px;
+    }
+
+    .about-img {
+      height: 25em;
+      width: 85%;
+      background-position: -62em -43.5em;
+}
+
+.cus-nav-link{
+  /* display: none; */
+  visibility:initial;
+}
+}
+
+@media (min-width: 1200px) {
+  .about-img {
+    width: 65%;
+    height: 25em;
+    background-position: 116em -42.5em;
+}
+}

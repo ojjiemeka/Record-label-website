@@ -36,7 +36,8 @@
               "src/assets/js/bez.js",
               "src/assets/js/jquery.min.js",
               "src/assets/js/pace.js",
-              "src/assets/js/index.js"
+              "src/assets/js/index.js",
+              "src/assets/js/script.js"
             ]
           },
           "configurations": {

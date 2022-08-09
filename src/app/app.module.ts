@@ -13,6 +13,7 @@ import { ArtistDetailComponent } from './pages/user/artist-detail/artist-detail.
 import { CareerComponent } from './pages/user/career/career.component';
 import { HeaderTwoComponent } from './inc/header-two/header-two.component';
 import { HeaderOneComponent } from './inc/header-one/header-one.component';
+import { FooterComponent } from './inc/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -25,12 +26,14 @@ import { HeaderOneComponent } from './inc/header-one/header-one.component';
     ArtistDetailComponent,
     CareerComponent,
     HeaderTwoComponent,
-    HeaderOneComponent
+    HeaderOneComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]

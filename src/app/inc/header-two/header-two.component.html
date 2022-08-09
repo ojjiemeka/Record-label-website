@@ -11,7 +11,19 @@
     <div class="menu-bar hover" (click)="openMenu()">
         <div class="d-flex align-items-baseline">
             <div class="mx-3 cus-nav-link">
-                <a routerLink="/" class="text-uppercase">Home</a>
+                <a routerLink="/" class="text-uppercase fw-bold">Home</a>
+            </div>
+            <div class="mx-3 cus-nav-link">
+                <a routerLink="/about" class="text-uppercase fw-bold">About</a>
+            </div>
+            <div class="mx-3 cus-nav-link">
+                <a routerLink="/artists" class="text-uppercase fw-bold">Artists</a>
+            </div>
+            <div class="mx-3 cus-nav-link">
+                <a routerLink="/career" class="text-uppercase fw-bold">career</a>
+            </div>
+            <div class="mx-3 cus-nav-link">
+                <a routerLink="/contact" class="text-uppercase fw-bold">contact</a>
             </div>
 
         <div class="menu-bar-lines text menu-2 cus-menu-btn ">
@@ -26,7 +38,10 @@
   <!-- NAVIGATION CONTENT -->
   
   <div class="hero-img">
-    <p class="text-light hero-text text-uppercase">About</p>
+    <p class="text-light hero-text text-uppercase" *ngIf="title == '/about'">About</p>
+    <p class="text-light hero-text text-uppercase" *ngIf="title == '/artists'">Artists</p>
+    <p class="text-light hero-text text-uppercase" *ngIf="title == '/career'">Career</p>
+    <p class="text-light hero-text text-uppercase" *ngIf="title == '/contact'">Contact</p>
 </div>
    
  

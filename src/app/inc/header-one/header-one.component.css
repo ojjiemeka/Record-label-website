@@ -6,6 +6,10 @@
     opacity: 1 !important;
 }
 
+.cus-text-white{
+    color: #fff !important;
+}
+
 .nav-content-vanish{
     position: fixed;
 }
