@@ -54,7 +54,7 @@ BLOG-SINGLE
 
 
 ============
-FOR TABLETS 
+FOR TABLETS
 -----------
 COMMON
 ABOUT-TWO
@@ -101,14 +101,14 @@ COMMON
             font-weight: normal;
             font-style: normal;
             }
-    
+
 .why-close{
     position:absolute;
     right:10%;
     top:10%;
 }
-            
-            
+
+
 *{
     padding: 0;
     margin: 0;
@@ -129,11 +129,11 @@ body{
     background: #202020;
 }
 
- 
+
 #preloader{
     height: 100vh;
     width: 100%;
-    background: #050505; 
+    background: #050505;
     overflow: hidden;
     display: flex;
     align-items: center;
@@ -157,8 +157,10 @@ body{
 }
 
 .nav-logo{
-    width: 20%;
-    border-radius: 40px;
+    /* width: 20%;
+    border-radius: 40px; */
+    width: 13%;
+    border-radius: 60px;
 }
 
 .navigation{
@@ -169,7 +171,7 @@ body{
     top: 0;
     z-index: 3;
     padding: 20px;
-   
+
     font-size: 20px;
 }
 .menu-bar{
@@ -307,11 +309,11 @@ a{
 @keyframes revealTextAnimation {
     0% {
         color: transparent;
-        
+
     }
     40% {
         color: transparent;
-        
+
     }
     60% {
         color: inherit;
@@ -716,7 +718,7 @@ COMMON
     top: 50%;
     transform: translate(-50%,-50%);
     pointer-events: none;
- 
+
 }
 
 #form-feel-main{
@@ -928,7 +930,7 @@ INDEX TWO
     bottom: 3%;
     /* transform: translate(-50%,0%); */
     opacity: 1;
-    
+
 }
 #index-two .new-release img{
     height: 100px;
@@ -1130,7 +1132,7 @@ ABOUT TWO
         padding: 40px;
         padding-top: 0px;
         font-size: 48px;
-    
+
 }
  #about-two .about-img{
      height: 100vh;
@@ -1363,7 +1365,7 @@ SONGS TWO
      position: relative;
      height: 110%;
      width: auto;
-    
+
  }
  #songs-two .song-details{
     position: fixed;
@@ -1423,7 +1425,7 @@ SONGS TWO
   cursor: pointer;
 }
 
- 
+
 
 
  /*====================================
@@ -1487,7 +1489,7 @@ SONGS THREE
      position: relative;
      height: 110%;
      width: auto;
-    
+
  }
  #songs-three .song-details{
     position: fixed;
@@ -1548,7 +1550,7 @@ SONGS THREE
 }
 
 
- 
+
 
 
  /*====================================
@@ -2353,7 +2355,7 @@ BLOG-SINGLE-ONE
 #blog-single .center{
  text-align: center;
  align-items: center;
- 
+
 }
 #blog-single .blog-img{
     width: 65%;
@@ -2510,7 +2512,7 @@ SCREEN MINIMIZES
  /*====================================
 COMMON
 ====================================*/
- 
+
 #songs-container{
     display: flex;
     flex-wrap: wrap;
@@ -2729,7 +2731,7 @@ ABOUT-TWO
 #about-two .about-img{
     display:none;
     }
-    
+
     #about-two .about-text-heading{
         font-size: 18px;
 
@@ -2757,7 +2759,7 @@ ABOUT-TWO
         opacity: .5;
         z-index: 1;
     }
- 
+
     #about-two .about-text{
         padding: 0px;
         width: 90%;
@@ -2771,7 +2773,7 @@ ABOUT-TWO
 ====================================*/
 
 
-    
+
 
 
 
@@ -2931,7 +2933,7 @@ SONGS FOUR
 
 
 
-    
+
 /*====================================
 BLOG-ONE
 ====================================*/
@@ -3322,12 +3324,12 @@ ABOUT TWO
       }
       #about-two .about-text-content{
         font-size: 17px;
-    
+
       }
       #about-two .signature{
         font-size: 40px;
       }
-    
+
     /*=======================================================================
     ABOUT TWO
     ======================================================================= */

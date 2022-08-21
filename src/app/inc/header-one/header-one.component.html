@@ -1,7 +1,7 @@
 <div id="header">
     <div class="navigation">
         <!-- <div class="logo hover ">
-           <a href="#" class="text">ARLO BROWN</a>
+           <a routerLink="/" class="text">ARLO BROWN</a>
         </div> -->
         <div class="menu-bar hover" (click)="openMenu()">
             <!-- <div class="menu-bar-name text">
@@ -13,54 +13,54 @@
             </div>
         </div>
     </div>
-   
+
     <!-- SOCIAL-MEDIA-LINKS -->
     <div class="social-media-links">
         <ul>
-            <li ><a href="#" data-text="Youtube" class="text hover">
+            <li ><a routerLink="/" data-text="Youtube" class="text hover text-danger">
                <i class='bx bxl-youtube bx-sm yt'></i>
             </a></li>
-            <li ><a href="#" data-text="Facebook" class="text hover">
+            <li ><a routerLink="/" data-text="Facebook" class="text hover text-primary">
                <i class='bx bxl-facebook-circle bx-sm fb'></i>
             </a></li>
-            <li ><a href="#" data-text="Instagram" class="text hover">
+            <li ><a routerLink="/" data-text="Instagram" class="text hover text-light">
                <i class='bx bxl-instagram bx-sm ig'></i>
             </a></li>
         </ul>
     </div>
     <!-- SOCIAL-MEDIA-LINKS -->
-   
+
        <div class="">
            <div class="new-release-img">
            <img src="../../../../assets/images/album-thumbnail-one.jpg" alt="new release" class="music-image">
-           <a href="http://" class="">
+           <a routerLink="http://" class="">
              <i class='bx bx-play bx-lg play-btn'></i>
          </a>
        </div>
         </div>
-   
+
    <!-- ALL SONGS LINKS -->
    <!-- <div class="all-songs-link">
       <div class="all-song-link-text text hover">
-         <a href="songs-four.html">Stream All Songs</a>
+         <a routerLink="songs-four.html">Stream All Songs</a>
       </div>
    </div> -->
    <!-- ALL SONGS LINKS -->
-   
-   
+
+
    </div>
 
     <!-- NAVIGATION CONTENT -->
 
  <div class="" [ngClass]="{'navigation-content': toggle, 'nav-content-vanish': !toggle}">
     <div class=" hover " [ngClass]="{'navigation-logo': toggle, 'opacity sm-screen': !toggle}">
-        <img src="../../../../assets/images/logo.png" class="nav-logo" alt="" srcset="">
+        <img src="../../../assets/images/xolid-music-white-bg.jpg" class="nav-logo" alt="" srcset="">
      </div>
     <ul class="navigation-ul" >
         <li [ngClass]="{'cus-opacity': toggle, '': !toggle}"><a routerLink="/" data-text="Home" data-img="images/bg-image-three.jpg">Home</a></li>
-        <li [ngClass]="{'cus-opacity': toggle, '': !toggle}"><a href="/about"  data-text="About"  data-img="images/about-img.jpg">About</a></li>
+        <li [ngClass]="{'cus-opacity': toggle, '': !toggle}"><a routerLink="/about"  data-text="About"  data-img="images/about-img.jpg">About</a></li>
         <li [ngClass]="{'cus-opacity': toggle, '': !toggle}"><a routerLink="/artists" data-text="Artists"  data-img="images/album-thumbnail-nine.jpg">Artists</a></li>
-        <li [ngClass]="{'cus-opacity': toggle, '': !toggle}"><a routerLink="/career"  data-text="Career" data-img="images/main-bg-three.jpg">Career</a></li>
+        <li [ngClass]="{'cus-opacity': toggle, '': !toggle}"><a routerLink="/jobs"  data-text="Career" data-img="images/main-bg-three.jpg">Career</a></li>
         <li [ngClass]="{'cus-opacity': toggle, '': !toggle}"><a routerLink="/contact"  data-text="Contact" data-img="images/album-thumbnail-four.jpg">Contact</a></li>
     </ul>
     <div class="hover about-close " (click)="closeMenu()" [ngClass]="{'navigation-close': toggle, 'opacity sm-screen': !toggle}">
@@ -70,7 +70,7 @@
 
         <div class="project-preview"></div>
 
-        
+
  <!-- HEADPHONE IMG -->
  <div class="headphone-navigation cus-icon" [ngClass]="{'': toggle, 'opacity': !toggle}">
    <i class='bx bx-headphone bx-md'></i>
@@ -81,13 +81,13 @@
     <!-- SOCIAL MEDIA LINKS -->
     <div class="" [ngClass]="{'social-media-links-navigation': toggle, 'sm-screen': !toggle}">
         <ul>
-            <li ><a href="#"  class="hover " [ngClass]="{'text reveal': toggle, 'opacity': !toggle}">
+            <li ><a routerLink="/"  class="hover" [ngClass]="{'text reveal': toggle, 'opacity': !toggle}">
                <i class='bx bxl-youtube bx-md yt'></i>
             </a></li>
-            <li ><a href="#"  class="hover " [ngClass]="{'text reveal': toggle, 'opacity': !toggle}">
+            <li ><a routerLink="/"  class="hover " [ngClass]="{'text reveal': toggle, 'opacity': !toggle}">
                <i class='bx bxl-facebook-circle bx-md fb'></i>
             </a></li>
-            <li ><a href="#"  class="hover " [ngClass]="{'text reveal': toggle, 'opacity': !toggle}">
+            <li ><a routerLink="/"  class="hover " [ngClass]="{'text reveal': toggle, 'opacity': !toggle}">
                <i class='bx bxl-instagram bx-md ig'></i>
             </a></li>
         </ul>

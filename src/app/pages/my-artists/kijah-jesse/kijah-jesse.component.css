@@ -1,0 +1,9 @@
+.apple:hover{
+  color: #D60017 !important;
+  transition: 0.2s;
+}
+
+.spotify:hover{
+  color: #1ED760 !important;
+  transition: 0.2s;
+}

@@ -3,6 +3,79 @@ li{
     list-style: disc;
 }
 
+.clr-1{
+  background-color: #422220;
+  font-weight: 600;
+}
+.clr-2{
+  background-color: #d5d5d5;
+    font-weight: 600;
+    color: #000;
+}
+.clr-3{
+  background-color: #c93f44;
+    color: #fff;
+}
+.clr-4{
+  background-color: #422220;
+  font-weight: 600;
+  color: #fff;
+}
+
 .req-lists{
 padding: 2em;
+}
+
+.pad{
+  padding: 1em;
+}
+
+.cus-card{
+  background-color: #3e3d3d;
+    /* height: 5em; */
+    border-radius: 12px;
+  padding-top: 5px;
+    display: flex;
+}
+
+.cus-badge{
+  border-radius: 12px;
+  display: flex;
+  height: 2em;
+  width: 5em;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.card-sub2{
+  background-color: #fff5f5;
+  color: #000;
+  padding-top: 5px;
+  border-radius: 12px;
+}
+
+.card-sub2 > p{
+  color: #F1474E;
+}
+
+.card-sub > p, .card-sub2 > p{
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.card-sub > a, .card-sub2 > a{
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.card-sub > a:hover, .card-sub2 > a:hover{
+  text-decoration: none;
+  color: #F1474E;
+  transition: 0.4s;
+}
+
+.card-sub{
+  margin: 1em;
 }

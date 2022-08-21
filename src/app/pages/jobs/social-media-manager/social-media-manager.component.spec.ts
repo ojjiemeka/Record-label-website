@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ArtistDetailComponent } from './artist-detail.component';
+import { SocialMediaManagerComponent } from './social-media-manager.component';
 
-describe('ArtistDetailComponent', () => {
-  let component: ArtistDetailComponent;
-  let fixture: ComponentFixture<ArtistDetailComponent>;
+describe('SocialMediaManagerComponent', () => {
+  let component: SocialMediaManagerComponent;
+  let fixture: ComponentFixture<SocialMediaManagerComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ ArtistDetailComponent ]
+      declarations: [ SocialMediaManagerComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(ArtistDetailComponent);
+    fixture = TestBed.createComponent(SocialMediaManagerComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

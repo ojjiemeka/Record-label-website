@@ -39,6 +39,11 @@
     font-weight: 600;
   }
 
+  .cus-btn{
+    color: #fff;
+    background-color: #5c5959;
+}
+
   .footer{
     background-color: #fff;
     width: 100%;
@@ -51,6 +56,10 @@
     font-size: 23px;
   }
 
+  footer{
+    background-color: #4a4a4a;
+  }
+
 
 
   .artist-cover{
@@ -58,13 +67,14 @@
     width: 80%;
     height: 30em;
     background: url('../images/photo_2022-08-08_00-48-29.jpg');
-    background-position: 43em 31.5em;
-    border-radius: 5px;
+    background-position: 53em 31.5em;
+    border-radius: 30px;
+    border: solid #fff 3px;
     /* z-index: 1; */
     /* position: absolute; */
     /* left: -51px; */
   }
-  
+
   .disk-img{
     width: 100%;
     left: 20%;
@@ -109,7 +119,17 @@
     border: #2C2C2C 3px dotted;
   }
 
-  
+  .apple:hover{
+    color: #D60017 !important;
+    transition: 0.2s;
+  }
+
+  .spotify:hover{
+    color: #1ED760 !important;
+    transition: 0.2s;
+  }
+
+
 
   @media (min-width: 320px) {
     .about-img {
@@ -137,39 +157,11 @@
       /* background-color: #d7d5d5; */
       width: 100%;
       height: 20em;
+      background-position: 25% 75%;
   }
   .contact-body{
     padding: 2em;
   }
-}
-
-@media (min-width: 320px) {
-  .about-img {
-    display: flex;
-  justify-content: center;
-  left: 0;
-  width: 100%;
-  height: 16em;
-  background-position: 110em -49.5em;
-}
-  .artist-music{
-    width: 100%;
-    position: relative;
-  /* top: 1em; */
-    padding: 1em;
-  }
-  .cus-nav-link{
-    /* display: none; */
-    visibility: hidden;
-  }
-  .artist-music-links {
-    font-size: 20px;
-}
-  .artist-cover{
-    /* background-color: #d7d5d5; */
-    width: 100%;
-    height: 20em;
-}
 }
 
 @media (min-width: 375px) {
@@ -195,6 +187,7 @@
   .artist-cover{
     width: 100%;
     height: 20em;
+    background-position: 20% 75%;
 }
 }
 
@@ -214,6 +207,9 @@
     width: 49%;
     height: 21em;
     background-position: 113em -46.5em;
+}
+.artist-cover{
+  background-position: 52em 75%;
 }
 }
 
@@ -244,4 +240,5 @@
     height: 25em;
     background-position: 116em -42.5em;
 }
+
 }
